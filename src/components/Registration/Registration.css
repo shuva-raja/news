@@ -1,0 +1,66 @@
+.registration {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 234, 236);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .reg {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 242, 242);
+  }
+  
+  .text,
+  .fm,
+  .email,
+  .password {
+    width: 330px;
+    height: 20px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
+  }
+  
+  .validity {
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    color: white;
+    background-color: #00008b;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: Algerian;
+    text-align: center;
+  }
+  
+  .notvalid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    color: rgb(12, 10, 10);
+    background-color: rgb(173, 216, 230);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: Algerian;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

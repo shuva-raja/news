@@ -1,0 +1,49 @@
+.login{
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(236, 234, 236);
+    display: flex;
+    flex-direction: column;
+    /* background-image:url('tree-removebg.png');
+    background-position: center calc(60px + 50%);
+    background-repeat: no-repeat;
+    background-size: auto;  */
+    /* box-sizing: border-box; */
+    text-align: center;
+}
+
+.loginparent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 242, 242);
+    
+}
+.email,.password{
+    
+    width: 330px;
+
+    height: 20px;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    background-color:black;
+    color: aliceblue;
+    font-family: cursive;
+    
+}
+.newtovision{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .cna{
+    text-decoration: none;
+} */

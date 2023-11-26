@@ -1,0 +1,22 @@
+.wholesec {
+  display: flex;
+  justify-content: space-between;  /* This will place items at the start and end of the container */
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10px;
+}
+
+.side-image {
+  width: 400px;
+  height: 270px;
+  border-radius: 10px;
+}
+
+.top-story{
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family:Algerian;
+}

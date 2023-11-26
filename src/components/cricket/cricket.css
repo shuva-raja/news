@@ -1,0 +1,35 @@
+.cricket{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cricketsection{
+    position: relative;
+    width:270px;
+    height: 320px;
+    margin-left: 70px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow:hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    /* border: 2px solid grey; */
+}
+.cricketsection:hover{
+    box-shadow: 0 4px 8px 0 rgba(27, 22, 22, 0.2), 0 6px 20px 0 rgba(58, 47, 47, 0.19);
+    scale:1.01;
+    transition: all .3s ease-in-out;
+}
+.cricketsection>img{
+    width: 270px;
+    height: 220px;
+    /* margin-left: 50px; */
+    border: 1px solid black;
+    
+}
+

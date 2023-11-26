@@ -1,0 +1,37 @@
+/* User.css */
+
+.user-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .user-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .user-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
